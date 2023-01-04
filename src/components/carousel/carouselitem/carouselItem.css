@@ -1,0 +1,39 @@
+.carousel_item {
+    width: 100%;
+    background-color: red;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 100%;
+}
+.carousel_image {
+    width: 100%;
+    /* height: 100vh; */
+    object-fit: cover;
+}
+.carousel_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    color: white;
+    background-color: red;
+}
+
+.carousel_details h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background-color: aqua;
+}
+
+.carousel_details p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 70%;
+    height: auto;
+    background-color: aqua;
+}
