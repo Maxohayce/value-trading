@@ -1,0 +1,200 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_top {
+    height: 18rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.about_top p {
+    color: #f5a623;
+    text-align: center;
+}
+
+.value_market {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50rem;
+}
+
+.value_market_left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+    padding: 5rem;
+}
+
+.value_market_left h5:nth-child(1) {
+    color: #f5a623;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.value_market_left h5:nth-child(2) {
+    font-size: 1rem;
+}
+
+.value_market_left p {
+    font-size: 1.2rem;
+}
+
+.value_market_right {
+    width: 50%;
+}
+
+.value_market_right img {
+    width: 100%;
+    height: 50rem;
+}
+
+.case_study {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.case_study_left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+    padding: 5rem;
+    font-size: 1.2rem;
+}
+.case_study_left h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f5a623;
+    text-transform: uppercase;
+}
+.case_study_left h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    width: 70%;
+}
+.case_study_left p {
+    width: 75%;
+}
+
+.uk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 28%;
+}
+.uk_icon {
+    color:#f5a623;
+}
+.uk h5 { 
+    color: #fff;
+}
+
+.check_button {
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #f5a623;
+}
+
+.experts {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.experts_left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+    padding: 5rem;
+    font-size: 1.2rem;
+}
+
+.experts_left h5 {
+    color: #f5a623;
+    text-transform: uppercase;
+}
+
+.experts_left h2 {
+    font-size: 3rem;
+}
+
+.experts_left span {
+    background-color: rgba(230, 182, 105, 0.3);
+    padding: 0.5rem;
+    color: #f5a623;
+}
+
+.expert_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.experts_right {
+    width: 50%;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    justify-content: flex-end;
+}
+
+.focus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 24rem;
+    height: 28rem;
+    background-color: #f5a623;
+    color: #fff;
+}
+
+.focus h4 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    width: 70%;
+    align-self: center;
+    text-align: start;
+}
+
+.focus p {
+    width: 70%;
+    align-self: center;
+    text-align: start;
+}
+
+.focus span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.quote_right {
+    color: grey;
+}
