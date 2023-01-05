@@ -1,0 +1,35 @@
+
+.carousel_image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+}
+.carousel_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    position: absolute;
+    top: 15%;
+    color: white;
+}
+
+.carousel_details h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.carousel_details p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 70%;
+    height: auto;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+    .carousel_image {
+        height: 30rem;
+    }
+}

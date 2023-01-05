@@ -1,0 +1,114 @@
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.support_top {
+    height: 18rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.support_top p {
+    color: #f5a623;
+    text-align: center;
+}
+
+
+
+.support_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 6rem 0;
+    /* background-color: red; */
+    height: 25rem;
+    width: 70%;
+}
+
+.contact_detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contact_detail input {
+    width: 43%;
+    height: 1rem;
+    background-color: #e0e0e0;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.contact_message {
+    width: 100%;
+}
+
+.contact_message textarea {
+    width: 92%;
+    height: 10rem;
+    background-color: #e0e0e0;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.support_button {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contact_button {
+    width: 8rem;
+    font-size: 1.2rem;
+    align-self: flex-start;
+    margin: 2rem 1.5rem;
+    background-color: #f5a623;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+    
+    .support_bottom {
+        width: 100%;
+        justify-content: space-around;
+        margin: 0;
+        height: 40rem;
+    }
+    
+    .contact_detail {
+        flex-direction: column;
+    }
+
+    .contact_detail input {
+        width: 85%;
+    }
+
+    .contact_message {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact_message textarea {
+        width: 85%;
+        margin: 0;
+    }
+}

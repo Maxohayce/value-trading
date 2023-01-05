@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    background-color: #f5a623;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -0.5rem;
+    color: #fff;
+    height: 5rem;
+}
+
+.header-left {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 12rem;
+}
+
+
+.header-right {
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8rem;
+}
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14rem;
+}
+
+.header-brands {
+    width: 12rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+    .header {
+        display: none;
+    }
+}
